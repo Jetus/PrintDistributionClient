@@ -23,3 +23,5 @@ jobs:
 
       - name: Publish NuGet package
         run: dotnet nuget push Client/bin/Debug/Client.1.0.1.nupkg --source https://nuget.pkg.github.com/Jetus/index.json
+        env:
+          NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
