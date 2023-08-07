@@ -5,6 +5,10 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>1.0.1</Version>
+        <Title>Print Distribution Client Test Application</Title>
+        <Authors>Oleh</Authors>
     </PropertyGroup>
 
     <ItemGroup>
