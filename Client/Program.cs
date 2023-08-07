@@ -1,3 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Models;
 
-Console.WriteLine("Hello, World!");
+var model = new TestModel
+{
+    FirstName = "Dev",
+    LastName = "Senior"
+};
+
+Console.WriteLine(model.FullName);
